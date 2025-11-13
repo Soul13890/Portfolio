@@ -5,6 +5,7 @@ import Home from './pages/Home/home'
 import About from './pages/About/about'
 import Projects from './pages/Projects/projects'
 import Contact from './pages/Contact/contact'
+import Footer from './components/Footer/footer'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
@@ -15,7 +16,8 @@ createRoot(document.getElementById('root')).render(
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes>  
+      </Routes>
+      <Footer/>
     </Router>
   </StrictMode>,
 )

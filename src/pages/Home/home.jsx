@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Header from "../../components/Header/header"
+import Introduction from "../../components/Introduction/introduction";
 
 function Home() {  
 
@@ -10,7 +11,7 @@ function Home() {
   return (    
     <div>
       <Header />
-      <h2>Accueil</h2> 
+      <Introduction />
     </div>
   )
 }

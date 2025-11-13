@@ -1,4 +1,13 @@
 @import "./tailwind.css";
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 $primary-color : #141414cc;
+$secondary-color : rgb(86, 86, 255);
 $text-color : rgb(255, 255, 255);
+$text-gray-color : rgba(20, 20, 20, 0.8);

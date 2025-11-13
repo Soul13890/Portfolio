@@ -1,7 +1,15 @@
 @import "./tailwind.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 header {
   background-color: rgba(20, 20, 20, 0.8);
   color: rgb(255, 255, 255);
+  padding: 20px;
 }
 header a {
   display: flex;
@@ -39,7 +47,7 @@ nav .nav-circle {
   right: 0;
   top: 0;
   width: 200px;
-  height: 250px;
+  height: 220px;
 }
 
 @media (max-width: 767px) {
@@ -88,4 +96,24 @@ nav .nav-circle {
 }
 .burger3.open {
   transform: rotate(-45deg);
+}
+
+footer {
+  background-color: rgba(20, 20, 20, 0.8);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.intro-container {
+  padding: 75px;
+  color: rgba(20, 20, 20, 0.8);
+}
+.intro-container h2 {
+  font-size: 42px;
+}
+.intro-container h3 {
+  font-size: 24px;
+}
+.intro-container p {
+  max-width: 450px;
 }/*# sourceMappingURL=index.css.map */
