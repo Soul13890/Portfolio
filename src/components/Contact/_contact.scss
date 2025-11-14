@@ -1,0 +1,31 @@
+.contact-container{   
+    margin: 50px auto 0px auto;
+    padding: 20px 75px;
+    background-color: $primary-color;
+    color: $text-color;
+
+    h2{
+        font-size: 36px;
+    }
+
+    h3{
+        font-size: 24px;
+    }
+
+    a{
+        border: 1px solid $text-color;
+        border-radius: 25px;
+        padding: 10px 15px;
+        width: fit-content;             
+
+        &:hover{
+            background-color: $text-color;
+            color: $primary-color;
+        }
+    }
+
+    svg{
+        width: 1.5em;
+        height: 1.5em;       
+    }
+}
