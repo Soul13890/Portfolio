@@ -10,6 +10,7 @@ header {
   background-color: rgba(20, 20, 20, 0.8);
   color: rgb(255, 255, 255);
   padding: 20px;
+  margin: 0 auto;
 }
 header a {
   display: flex;
@@ -102,10 +103,12 @@ footer {
   background-color: rgba(20, 20, 20, 0.8);
   color: rgb(255, 255, 255);
   padding: 20px;
+  margin: 0 auto;
 }
 
 .intro-container {
   padding: 75px;
+  margin: 0 auto;
   color: rgba(20, 20, 20, 0.8);
 }
 .intro-container h2 {
@@ -115,5 +118,32 @@ footer {
   font-size: 24px;
 }
 .intro-container p {
-  max-width: 450px;
+  max-width: 575px;
+}
+@media (max-width: 767px) {
+  .intro-container p {
+    max-width: 100%;
+  }
+}
+
+.network-container {
+  padding: 10px 0px;
+}
+@media (max-width: 767px) {
+  .network-container {
+    flex-direction: column;
+  }
+}
+.network-container a {
+  border: 1px solid rgba(20, 20, 20, 0.8);
+  border-radius: 25px;
+  padding: 10px 15px;
+}
+.network-container a:hover {
+  background-color: rgba(20, 20, 20, 0.8);
+  color: rgb(255, 255, 255);
+}
+.network-container svg {
+  width: 1.5em;
+  height: 1.5em;
 }/*# sourceMappingURL=index.css.map */

@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Header from "../../components/Header/header"
 import Introduction from "../../components/Introduction/introduction";
+import Contact from "../../components/Contact/contact"
 
 function Home() {  
 
@@ -12,6 +13,7 @@ function Home() {
     <div>
       <Header />
       <Introduction />
+      <Contact/>
     </div>
   )
 }

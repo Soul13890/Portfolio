@@ -4,7 +4,7 @@ import Navbar from '../Navbar/navbar'
 function Header() {
 
   return (
-    <header className="flex justify-between content-center p-5 m-auto max-w-[1240px] w-full sticky">
+    <header className="flex justify-between content-center max-w-[1240px] w-full sticky">
       <Link to="/">
         <h1>Florian Badenes</h1>
       </Link>

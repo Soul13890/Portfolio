@@ -1,5 +1,6 @@
 .intro-container{
     padding: 75px;
+    margin: 0 auto;
     color: $text-gray-color;
 
     h2{
@@ -10,7 +11,11 @@
         font-size: 24px;
     }
 
-    p{
-        max-width: 450px;
+    p{        
+        max-width: 575px;
+
+        @media (max-width: 767px) {
+            max-width: 100%;
+        }
     }
 }
