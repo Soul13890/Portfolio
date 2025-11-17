@@ -11,7 +11,8 @@ function Skills() {
                         <Skill                                                    
                             icon={icon}
                             name={name}
-                            level={level}							
+                            level={level}
+                            visualParts={level}							
                         />
                     </li>
                 ))}
