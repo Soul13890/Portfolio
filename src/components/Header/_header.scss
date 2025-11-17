@@ -3,10 +3,10 @@ header{
     color : $text-color;
     padding: 20px;
     margin: 0 auto;
+    border-bottom: 1px solid white;
 
     a{
         display: flex;        
         align-items: center;
     }
 }
-
