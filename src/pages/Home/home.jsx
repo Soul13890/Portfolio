@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Header from "../../components/Header/header"
 import Introduction from "../../components/Introduction/introduction";
 import Contact from "../../components/Contact/contact"
+import Skills_Intro from "../../components/Skills_Intro/skills_intro";
 
 function Home() {  
 
@@ -12,7 +13,8 @@ function Home() {
   return (    
     <div>
       <Header />
-      <Introduction />      
+      <Introduction /> 
+      <Skills_Intro/>  
       <Contact/>
     </div>
   )

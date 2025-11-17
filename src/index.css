@@ -177,10 +177,55 @@ footer {
   height: 1.5em;
 }
 
+.skills-intro-container {
+  margin: 50px auto;
+  padding: 50px 75px;
+  background-color: rgba(20, 20, 20, 0.8);
+  color: rgb(255, 255, 255);
+}
+.skills-intro-container h2 {
+  font-size: 42px;
+}
+.skills-intro-container h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+.skills-intro-container .skills-intro-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+@media (max-width: 767px) {
+  .skills-intro-container .skills-intro-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+.skills-intro-container .skills-intro-list img {
+  width: 64px;
+  height: 64px;
+}
+.skills-intro-container a {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 25px;
+  padding: 10px 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.skills-intro-container a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgba(20, 20, 20, 0.8);
+}
+.skills-intro-container svg {
+  width: 1.5em;
+  height: 1.5em;
+}
+
 .skills-container {
   background-color: rgba(20, 20, 20, 0.8);
   color: rgb(255, 255, 255);
-  margin: 50px auto;
+  margin: 0px auto;
   padding: 50px 75px;
 }
 @media (max-width: 767px) {

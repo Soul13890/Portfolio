@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import Header from "../../components/Header/header"
-import Introduction from "../../components/Introduction/introduction";
 import Skills from "../../components/Skills/skills";
 
 function About() {  
@@ -11,8 +10,7 @@ function About() {
 
   return (    
     <div>
-      <Header />
-      <Introduction/>
+      <Header />      
       <Skills/>
     </div>
   )
