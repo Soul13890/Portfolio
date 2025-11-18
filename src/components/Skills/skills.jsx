@@ -1,4 +1,4 @@
-import data from "../../datas/Skills.json";
+import skills_data from "../../datas/Skills.json";
 import Skill from "../Skill/skill";
 
 function Skills() {
@@ -6,7 +6,7 @@ function Skills() {
     <section className='skills-container flex flex-col gap-[50px] max-w-[1240px] w-full'>
         <h2>Mes compétences</h2>
         <ul className='skills-list'>
-                {data.map(({id, icon, name, level}) => (                    
+                {skills_data.map(({id, icon, name, level}) => (                    
 					<li className="skill-item" key={id}>
                         <Skill                                                    
                             icon={icon}

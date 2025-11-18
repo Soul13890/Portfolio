@@ -1,0 +1,26 @@
+[
+	{
+		"id": "page-dynamique-js",
+		"name": "Créez une page web dynamique avec Javascript",
+		"cover": "../../../public/covers/page-dynamique.webp",		
+		"desc": "Rendre une page web existante dynamique afin d'améliorer l'expérience utilisateur",
+		"github": "https://github.com/Soul13890/OC_Projet_2",
+        "categories": [
+			"Front-end",
+			"API"
+        ],
+        "icons": [
+            "../../../public/icons/html.svg",
+            "../../../public/icons/css.svg",
+            "../../../public/icons/js.svg"
+        ],
+        "content": {
+            "context": "Dans le cadre d’un projet de formation, j’ai développé une page web dynamique pour le site d’une architecte. L’objectif était de rendre certains éléments interactifs afin d’améliorer l’expérience utilisateur et la présentation des réalisations.",
+            "objectives": "Le projet visait à gérer les différents éléments du site de façon dynamique avec Javascript et à connecter la page à une API pour afficher des données réelles. Il s’agissait également de comprendre et maîtriser les requêtes HTTP nécessaires à l’échange d’informations entre le front-end et l’API.",
+            "tools": "HTML, CSS et JavaScript pour la structure, le style et l’interactivité, ainsi que Swagger pour la documentation et le test de l’API.",
+            "skills": "J’ai renforcé mes compétences en manipulation du DOM, en gestion d’événements et en communication avec une API REST. Les difficultés rencontrées lors des requêtes m’ont permis d’approfondir ma compréhension des paramètres et méthodes HTTP.",
+            "results": "La page web est entièrement fonctionnelle, avec un affichage dynamique des projets et des filtres interactifs. Le rendu final offre une navigation fluide et met en valeur le travail de l’architecte. La page contient également un système d’authentification qui permet au client de se connecter et d’ajouter ou supprimer des travaux avec l’API grâce à une fenêtre modale",
+            "ameliorations": "Je prévois d’ajouter un chargement asynchrone pour améliorer les performances et l’expérience utilisateur."
+        }
+	}
+]

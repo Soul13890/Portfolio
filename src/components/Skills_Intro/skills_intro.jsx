@@ -18,7 +18,7 @@ function Skills_Intro() {
             <li className="flex flex-col gap-3">
                 <img src="../../public/icons/react.svg" alt="" />
                 <h3>React.js</h3>
-                <p>Familier avec l'utilisation de React, je suis capable de concevoir des applications web dynamiques et réactives avec React et Next.js, en tirant parti du rendu côté serveur et de la génération statique pour optimiser les performances et l’expérience utilisateur.</p>
+                <p>Familier avec l'utilisation de React, je suis capable de concevoir des applications web dynamiques et réactives avec React, en tirant parti du rendu côté serveur et de la génération statique pour optimiser les performances et l’expérience utilisateur.</p>
             </li>
             <li className="flex flex-col gap-3">
                 <img src="../../public/icons/tailwind.svg" alt="" />

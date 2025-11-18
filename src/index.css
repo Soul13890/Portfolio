@@ -109,8 +109,8 @@ footer {
 }
 
 .intro-container {
-  margin: 50px auto;
-  padding: 0px 75px;
+  margin: 0px auto;
+  padding: 50px 75px;
   color: rgba(20, 20, 20, 0.8);
 }
 .intro-container h2 {
@@ -179,7 +179,7 @@ footer {
 }
 
 .skills-intro-container {
-  margin: 50px auto;
+  margin: 0px auto;
   padding: 50px 75px;
   background-color: rgba(20, 20, 20, 0.8);
   color: rgb(255, 255, 255);
@@ -303,6 +303,61 @@ footer {
 }
 @media (max-width: 767px) {
   .skill-item .skill-item-level-container .skill-item .skill-item-level {
+    display: none;
+  }
+}
+
+.projects-intro-container {
+  margin: 0px auto;
+  padding: 50px 75px;
+  background-color: rgb(255, 255, 255);
+  color: rgba(20, 20, 20, 0.8);
+}
+.projects-intro-container h2 {
+  font-size: 42px;
+}
+.projects-intro-container h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+.projects-intro-container a {
+  border: 1px solid rgba(20, 20, 20, 0.8);
+  border-radius: 25px;
+  padding: 10px 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.projects-intro-container a:hover {
+  background-color: rgba(20, 20, 20, 0.8);
+  color: rgb(255, 255, 255);
+}
+.projects-intro-container svg {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.project-item-container .project-item-infos .icons-list .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-item-container .project-item-infos .icons-list img {
+  width: 32px;
+  height: 32px;
+}
+.project-item-container .project-item-infos .categories-list .categorie {
+  background-color: rgb(86, 86, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+  padding: 10px 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.project-item-container .project-cover {
+  width: 300px;
+}
+@media (max-width: 767px) {
+  .project-item-container .project-cover {
     display: none;
   }
 }/*# sourceMappingURL=index.css.map */

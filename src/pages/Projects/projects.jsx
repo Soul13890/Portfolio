@@ -1,7 +1,11 @@
 import { useEffect } from "react";
+import { useParams } from "react-router-dom";
 import Header from "../../components/Header/header"
 
-function Projects() {  
+function Projects() {
+
+  const { id } = useParams();
+  const project = data.find(item => item.id === id);
 
   useEffect(() => {
     window.scrollTo(0, 0);

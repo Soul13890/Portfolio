@@ -82,7 +82,7 @@ function Navbar() {
             </motion.li>
             <motion.li variants={itemVariants} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}
               className={currentRoute === "/projects" ? "active" : ""}>
-              <Link to="/projects">Mes projets</Link>
+              <motion.a href="#my-projects">Mes projets</motion.a>
             </motion.li>
             <motion.li variants={itemVariants} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}
               className={currentRoute === "/contact" ? "active" : ""}>
