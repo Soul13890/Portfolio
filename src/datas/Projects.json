@@ -38,12 +38,12 @@
             "../../../public/icons/sass.svg"
         ],
         "content": {
-            "context": "Lorem",
-            "objectives": "Lorem",
-            "tools": "Lorem",
-            "skills": "Lorem",
-            "results": "Lorem",
-            "ameliorations": "Lorem"
+            "context": "Dans le cadre d’un projet de formation, j’ai réalisé une application web de location immobilière en React. Le but était de concevoir une interface moderne et dynamique, tout en respectant une architecture de composants claire et réutilisable.",
+            "objectives": "L’objectif principal était d’afficher une liste de logements à partir d’un fichier JSON fourni, sans recours à une API. Le projet visait également à maîtriser la navigation entre pages et le passage de données au sein de l’application React.",
+            "tools": "React pour la création des composants, React Router pour la navigation, Node.js comme environnement de développement, et Sass pour la mise en page modulable et maintenable.",
+            "skills": "J’ai renforcé ma compréhension de la structure d’une application React et de la logique de communication entre composants. Les difficultés rencontrées dans le transfert de données entre pages m’ont permis d’approfondir la gestion du state et des props.",
+            "results": "L’application obtenue offre une navigation fluide, un affichage clair des logements et une expérience utilisateur cohérente. Ce projet illustre ma capacité à construire une application front-end complète à partir de données statiques.",
+            "ameliorations": "À terme, je souhaite intégrer une vraie API pour rendre le contenu dynamique et ajouter des filtres de recherche afin d’enrichir l’expérience utilisateur."
         }
 	}
 ]
