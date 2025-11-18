@@ -2,6 +2,11 @@
 
     .project-item-infos{
 
+        h3{
+            font-weight: bold;
+            font-size: 24px;
+        }
+
         .icons-list{
 
             .icon{
@@ -34,7 +39,7 @@
 
         width: 300px;
 
-        @media (max-width:767px)
+        @media (max-width: 820px)
         {
             display: none;
         }

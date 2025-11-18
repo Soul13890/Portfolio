@@ -22,5 +22,28 @@
             "results": "La page web est entièrement fonctionnelle, avec un affichage dynamique des projets et des filtres interactifs. Le rendu final offre une navigation fluide et met en valeur le travail de l’architecte. La page contient également un système d’authentification qui permet au client de se connecter et d’ajouter ou supprimer des travaux avec l’API grâce à une fenêtre modale",
             "ameliorations": "Je prévois d’ajouter un chargement asynchrone pour améliorer les performances et l’expérience utilisateur."
         }
+	},
+    {
+		"id": "react-app-location",
+		"name": "Créez une application web de location immobilière avec React",
+		"cover": "../../../public/covers/react-kasa.webp",		
+		"desc": "Concevoir une interface moderne et dynamique avec React",
+		"github": "https://github.com/Soul13890/OC_Projet_4",
+        "categories": [
+			"Front-end",
+			"JSON"
+        ],
+        "icons": [
+            "../../../public/icons/react.svg",
+            "../../../public/icons/sass.svg"
+        ],
+        "content": {
+            "context": "Lorem",
+            "objectives": "Lorem",
+            "tools": "Lorem",
+            "skills": "Lorem",
+            "results": "Lorem",
+            "ameliorations": "Lorem"
+        }
 	}
 ]

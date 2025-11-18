@@ -6,7 +6,7 @@ function Projects_Intro() {
   return (
     <section id="my-projects" className='projects-intro-container flex flex-col gap-8 max-w-[1240px] w-full'>
         <h2>J'ai travailler sur...</h2>
-        <ul className='projects-list'>
+        <ul className='projects-list flex flex-col gap-8'>
             {projects_data.map(({id, name, cover, desc, icons, categories}) => (              
 				<li className="project-item" key={id}>
                     <Project                                                   
