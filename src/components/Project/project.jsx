@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom"
-import { motion } from "framer-motion";
-import { IoIosArrowRoundForward } from "react-icons/io";
+import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io";
+import { FaGithub } from "react-icons/fa";
+import { motion, AnimatePresence } from "framer-motion";
+import { scale } from "motion";
 
-function Project({id, name, cover, desc, icons, categories}) { 
+function Project({id, name, cover, desc, icons, categories, github}) { 
 
     const MotionLink = motion(Link);
 
@@ -10,6 +12,7 @@ function Project({id, name, cover, desc, icons, categories}) {
     <>               
         <div className="project-item-container flex justify-between content-center gap-8">
             <div className="project-item-infos flex flex-col justify-center gap-8">
+                {location.pathname.includes("/projects") && <MotionLink to={`/`} className="flex content-center gap-2 w-fit" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}><IoIosArrowRoundBack />Retour</MotionLink>}
                 <div>
                     <h3>{name}</h3>
                     <p>{desc}</p>
@@ -32,8 +35,11 @@ function Project({id, name, cover, desc, icons, categories}) {
                         ))}
                     </ul>
                 </div>
+                <div className="flex content-center gap-2">
+                    <motion.a href={github} target="_blank" className="flex justify-center content-center gap-2" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}><FaGithub />GitHub</motion.a>
+                    {location.pathname === "/" && <MotionLink to={`/projects/${id}`} className="flex content-center gap-2" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>Plus d'infos<IoIosArrowRoundForward /></MotionLink>}
+                </div>
                 
-                <MotionLink to={`/projects/${id}`} className="flex content-center gap-2" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>Plus d'infos<IoIosArrowRoundForward /></MotionLink>
             </div>
             <img className="project-cover" src={cover} alt="Image du projet" />          
         </div>

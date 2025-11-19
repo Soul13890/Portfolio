@@ -2,7 +2,7 @@
 	{
 		"id": "page-dynamique-js",
 		"name": "Créez une page web dynamique avec Javascript",
-		"cover": "../../../public/covers/page-dynamique.webp",		
+		"cover": "/covers/page-dynamique.webp",		
 		"desc": "Rendre une page web existante dynamique afin d'améliorer l'expérience utilisateur",
 		"github": "https://github.com/Soul13890/OC_Projet_2",
         "categories": [
@@ -10,9 +10,9 @@
 			"API"
         ],
         "icons": [
-            "../../../public/icons/html.svg",
-            "../../../public/icons/css.svg",
-            "../../../public/icons/js.svg"
+            "/icons/html.svg",
+            "/icons/css.svg",
+            "/icons/js.svg"
         ],
         "content": {
             "context": "Dans le cadre d’un projet de formation, j’ai développé une page web dynamique pour le site d’une architecte. L’objectif était de rendre certains éléments interactifs afin d’améliorer l’expérience utilisateur et la présentation des réalisations.",
@@ -26,7 +26,7 @@
     {
 		"id": "react-app-location",
 		"name": "Créez une application web de location immobilière avec React",
-		"cover": "../../../public/covers/react-kasa.webp",		
+		"cover": "/covers/react-kasa.webp",		
 		"desc": "Concevoir une interface moderne et dynamique avec React",
 		"github": "https://github.com/Soul13890/OC_Projet_4",
         "categories": [
@@ -34,8 +34,8 @@
 			"JSON"
         ],
         "icons": [
-            "../../../public/icons/react.svg",
-            "../../../public/icons/sass.svg"
+            "/icons/react.svg",
+            "/icons/sass.svg"
         ],
         "content": {
             "context": "Dans le cadre d’un projet de formation, j’ai réalisé une application web de location immobilière en React. Le but était de concevoir une interface moderne et dynamique, tout en respectant une architecture de composants claire et réutilisable.",

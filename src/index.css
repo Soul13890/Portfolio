@@ -357,6 +357,19 @@ footer {
   width: -moz-fit-content;
   width: fit-content;
 }
+.project-item-container .project-item-infos a {
+  border: 1px solid rgba(20, 20, 20, 0.8);
+  border-radius: 25px;
+  padding: 10px 15px;
+}
+.project-item-container .project-item-infos a:hover {
+  background-color: rgba(20, 20, 20, 0.8);
+  color: rgb(255, 255, 255);
+}
+.project-item-container .project-item-infos svg {
+  width: 1.5em;
+  height: 1.5em;
+}
 .project-item-container .project-cover {
   width: 300px;
 }
@@ -386,5 +399,15 @@ footer {
   font-weight: bold;
 }
 .project-infos-container a {
-  display: none;
+  border: 1px solid rgba(20, 20, 20, 0.8);
+  border-radius: 25px;
+  padding: 10px 15px;
+}
+.project-infos-container a:hover {
+  background-color: rgba(20, 20, 20, 0.8);
+  color: rgb(255, 255, 255);
+}
+.project-infos-container svg {
+  width: 1.5em;
+  height: 1.5em;
 }/*# sourceMappingURL=index.css.map */

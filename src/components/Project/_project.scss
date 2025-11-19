@@ -33,6 +33,22 @@
                 width: fit-content;               
             }
         }
+
+        a{
+            border: 1px solid $primary-color;
+            border-radius: 25px;
+            padding: 10px 15px;                 
+
+            &:hover{
+                background-color: $primary-color;
+                color: $text-color;
+            }
+        }
+
+        svg{
+            width: 1.5em;
+            height: 1.5em;       
+        }
     }
 
     .project-cover{
