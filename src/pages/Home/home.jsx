@@ -6,9 +6,9 @@ import Skills_Intro from "../../components/Skills_Intro/skills_intro";
 import Projects_Intro from "../../components/Projects_Intro/projects_intro";
 
 function Home() {  
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
+  
+  useEffect(() => {    
+    window.scrollTo(0, 0);    
   }, []);
 
   return (    
