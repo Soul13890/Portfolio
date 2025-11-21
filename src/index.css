@@ -413,4 +413,48 @@ footer {
 .project-infos-container svg {
   width: 1.5em;
   height: 1.5em;
+}
+
+.contact-form-container {
+  margin: 0px auto;
+  padding: 50px 75px;
+  background-color: rgb(255, 255, 255);
+  color: rgba(20, 20, 20, 0.8);
+}
+.contact-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-form-container form label {
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+.contact-form-container form input, .contact-form-container form textarea {
+  min-height: 40px;
+  border: 1px solid rgba(20, 20, 20, 0.8);
+  border-radius: 25px;
+  margin-bottom: 20px;
+  box-shadow: 5px 10px rgba(20, 20, 20, 0.8);
+  padding: 20px 25px;
+}
+.contact-form-container a, .contact-form-container button {
+  border: 1px solid rgba(20, 20, 20, 0.8);
+  border-radius: 25px;
+  padding: 10px 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.contact-form-container a:hover, .contact-form-container button:hover {
+  background-color: rgba(20, 20, 20, 0.8);
+  color: rgb(255, 255, 255);
+}
+.contact-form-container a {
+  margin-bottom: 40px;
+}
+.contact-form-container button {
+  margin-top: 40px;
+}
+.contact-form-container svg {
+  width: 1.5em;
+  height: 1.5em;
 }/*# sourceMappingURL=index.css.map */

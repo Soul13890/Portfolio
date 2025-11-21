@@ -1,0 +1,50 @@
+.contact-form-container{
+    margin: 0px auto;
+    padding: 50px 75px;
+    background-color: $text-color;
+    color: $primary-color;
+
+    form{
+        display: flex;
+        flex-direction: column;
+
+        label{
+            margin-bottom: 10px;
+            padding-left: 15px;
+        }
+
+        input, textarea{
+            min-height: 40px;
+            border: 1px solid $primary-color;
+            border-radius: 25px;
+            margin-bottom: 20px;
+            box-shadow: 5px 10px $primary-color;
+            padding: 20px 25px;
+        }
+    }
+
+    a, button{
+        border: 1px solid $primary-color;
+        border-radius: 25px;
+        padding: 10px 15px;
+        width: fit-content;             
+
+        &:hover{
+            background-color: $primary-color;
+            color: $text-color;
+        }
+    }
+
+    a{
+        margin-bottom: 40px;
+    }
+
+    button{
+        margin-top: 40px;
+    }
+        
+    svg{
+        width: 1.5em;
+        height: 1.5em;       
+    }
+}
