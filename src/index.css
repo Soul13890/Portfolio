@@ -457,4 +457,70 @@ footer {
 .contact-form-container svg {
   width: 1.5em;
   height: 1.5em;
+}
+
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 113px;
+  margin: 80px auto 100px auto;
+}
+.error-container-title {
+  font-size: 288px;
+  color: rgba(20, 20, 20, 0.8);
+  font-weight: 700;
+}
+@media only screen and (max-width: 600px) {
+  .error-container-title {
+    font-size: 144px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .error-container-title {
+    font-size: 96px;
+  }
+}
+.error-container-text {
+  font-size: 36px;
+  color: rgba(20, 20, 20, 0.8);
+  font-weight: 500;
+  text-align: center;
+  padding: 0px 30px;
+}
+@media only screen and (max-width: 600px) {
+  .error-container-text {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .error-container-text {
+    font-size: 18px;
+  }
+}
+.error-container-link {
+  font-size: 18px;
+  color: rgba(20, 20, 20, 0.8);
+  font-weight: 500;
+}
+@media only screen and (max-width: 400px) {
+  .error-container-link {
+    font-size: 14px;
+  }
+}
+.error-container a {
+  border: 1px solid rgba(20, 20, 20, 0.8);
+  border-radius: 25px;
+  padding: 10px 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.error-container a:hover {
+  background-color: rgba(20, 20, 20, 0.8);
+  color: rgb(255, 255, 255);
+}
+.error-container svg {
+  width: 1.5em;
+  height: 1.5em;
 }/*# sourceMappingURL=index.css.map */
