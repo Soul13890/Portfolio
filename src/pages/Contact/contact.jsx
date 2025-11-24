@@ -10,11 +10,11 @@ function Contact() {
   }, []);
 
   return (    
-    <div>
+    <>
       <Header />
       <Contact_Intro />
       <Contact_Form />
-    </div>
+    </>
   )
 }
 

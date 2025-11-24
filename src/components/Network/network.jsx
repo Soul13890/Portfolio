@@ -7,13 +7,13 @@ import { scale, stagger } from "motion";
 function Network() {
 
   const MotionLink = motion(Link);
-  
+
   return (
     <div className='network-container flex gap-4'>
         <MotionLink to="/contact" className="flex justify-center content-center gap-2" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}><MdOutlineEmail />Contactez-moi</MotionLink>
         <motion.a href="https://github.com/Soul13890" target="_blank" className="flex justify-center content-center gap-2" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}><FaGithub />Mon GitHub</motion.a>
         <motion.a href="/files/CV.pdf" target="_blank" download className="flex justify-center content-center gap-2" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}><MdOutlineFileDownload />Télécharger mon CV</motion.a>
-    </div>
+     </div>
   )
 }
 

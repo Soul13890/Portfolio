@@ -3,7 +3,7 @@ import Skill from "../Skill/skill";
 
 function Skills() {
   return (
-    <section className='skills-container flex flex-col gap-[50px] max-w-[1240px] w-full'>
+    <section id="skills" className='skills-container flex flex-col gap-[50px] max-w-[1240px] w-full'>
         <h2>Mes compétences</h2>
         <ul className='skills-list'>
                 {skills_data.map(({id, icon, name, level}) => (                    

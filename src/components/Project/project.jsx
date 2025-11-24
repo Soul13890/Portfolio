@@ -36,7 +36,7 @@ function Project({id, name, cover, desc, icons, categories, github}) {
                     </ul>
                 </div>
                 <div className="flex content-center gap-2">
-                    <motion.a href={github} target="_blank" className="flex justify-center content-center gap-2" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}><FaGithub />GitHub</motion.a>
+                    {github !== "" && <motion.a href={github} target="_blank" className="flex justify-center content-center gap-2" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}><FaGithub />GitHub</motion.a>}
                     {(location.pathname === "/" || location.pathname === "/projects") && <MotionLink to={`/projects/${id}`} className="flex content-center gap-2" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>Plus d'infos<IoIosArrowRoundForward /></MotionLink>}
                 </div>
                 

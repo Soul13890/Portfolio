@@ -16,7 +16,7 @@ function Projects() {
   }, []);
 
   return (
-    <div>
+    <>
       <Header />      
       {id && project ? (
         // Affichage du détail d'un projet
@@ -35,7 +35,7 @@ function Projects() {
         // Affichage de la liste des projets
         <Projects_Intro/>        
       )}
-    </div>
+    </>
   );
 }
 

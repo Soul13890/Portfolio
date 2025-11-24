@@ -45,5 +45,28 @@
             "results": "L’application obtenue offre une navigation fluide, un affichage clair des logements et une expérience utilisateur cohérente. Ce projet illustre ma capacité à construire une application front-end complète à partir de données statiques.",
             "ameliorations": "À terme, je souhaite intégrer une vraie API pour rendre le contenu dynamique et ajouter des filtres de recherche afin d’enrichir l’expérience utilisateur."
         }
+	},
+    {
+		"id": "verrerie",
+		"name": "Créez une page web reliée à une station météo",
+		"cover": "/covers/verrerie.webp",		
+		"desc": "Afficher les informations d'une station météo Raspberry Pi",
+		"github": "",
+        "categories": [
+			"Front-end"
+        ],
+        "icons": [
+            "/icons/html.svg",
+            "/icons/css.svg",
+            "/icons/bootstrap.svg"
+        ],
+        "content": {
+            "context": "Dans le cadre d’un projet d’équipe, j’ai travaillé comme lead developper sur la création d’une page web destinée à afficher les données d’une station météo Raspberry Pi. L’enjeu principal était de proposer une interface simple, lisible et fiable pour consulter les informations transmises par le dispositif.",
+            "objectives": "Notre mission consistait à concevoir une page web responsive et facile à maintenir, tout en testant plusieurs approches d’affichage pour retenir la plus pertinente. Il s’agissait également d’assurer une intégration propre avec les données fournies par le système existant.",
+            "tools": "HTML, CSS, Bootstrap pour l’interface, intégration des données transmises par un script Python externe géré par le client.",
+            "skills": "Ce projet m’a permis de renforcer mes compétences en conception d’interface, en organisation itérative et en décision technique. En tant que lead programmer, j’ai aussi développé ma capacité à coordonner l’avancement et à garantir la cohérence du rendu final.",
+            "results": "Le livrable final est une interface claire, stable et exploitable, validée lors de tests internes pour sa lisibilité et sa compatibilité multi-supports. L’ensemble respecte les attentes du client tout en restant facilement extensible.",
+            "ameliorations": "Nous sommes actuellement en attente des directives du client pour intégrer une gestion des événements du lieu-dit, avec système de connexion utilisateur et formulaire dédié à l’ajout d’événements."
+        }
 	}
 ]

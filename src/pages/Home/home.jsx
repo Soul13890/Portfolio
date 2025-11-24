@@ -12,13 +12,13 @@ function Home() {
   }, []);
 
   return (    
-    <div>
+    <>
       <Header />
       <Introduction /> 
       <Skills_Intro/>
       <Projects_Intro/>
       <Contact/>
-    </div>
+    </>
   )
 }
 

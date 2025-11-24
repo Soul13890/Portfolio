@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import Header from "../../components/Header/header"
 import Skills from "../../components/Skills/skills";
+import Introduction from "../../components/Introduction/introduction";
+import Navbar_About from "../../components/Navbar_About/navbar_about";
 
 function About() {  
 
@@ -9,10 +11,12 @@ function About() {
   }, []);
 
   return (    
-    <div>
-      <Header />      
+    <>
+      <Header />
+      <Navbar_About />
+      <Introduction/>         
       <Skills/>
-    </div>
+    </>
   )
 }
 

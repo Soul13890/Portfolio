@@ -44,7 +44,7 @@ nav li.active {
   font-weight: bold;
 }
 nav .nav-circle {
-  background-color: rgb(86, 86, 255);
+  background-color: rgb(44, 44, 44);
   position: absolute;
   right: 0;
   top: 0;
@@ -264,7 +264,7 @@ footer {
 }
 
 .skill-item .skill-item-level-container {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(44, 44, 44);
   border-radius: 25px;
 }
 .skill-item .skill-item-level-container .skill-item {
@@ -523,4 +523,22 @@ footer {
 .error-container svg {
   width: 1.5em;
   height: 1.5em;
+}
+
+.navbar-about-container {
+  margin-top: 30px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 20px;
+}
+.navbar-about-container li {
+  border: 1px solid rgba(20, 20, 20, 0.8);
+  border-radius: 25px;
+  padding: 10px 15px;
+  color: rgba(20, 20, 20, 0.8);
+}
+.navbar-about-container li:hover {
+  background-color: rgba(20, 20, 20, 0.8);
+  color: rgb(255, 255, 255);
 }/*# sourceMappingURL=index.css.map */

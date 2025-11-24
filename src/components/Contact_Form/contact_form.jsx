@@ -11,10 +11,10 @@ function Contact_Form() {
     <section className="contact-form-container flex flex-col gap-4 max-w-[1240px] w-full" id="contact">
         <MotionLink to={`/`} className="flex content-center gap-2 w-fit" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}><IoIosArrowRoundBack />Retour</MotionLink>
         <form action="https://formspree.io/f/mkgewzlg" method="POST">
-            <label for="email">Votre email</label>
+            <label htmlFor="email">Votre email</label>
             <input type="email" id="email" name="email" required />
 
-            <label for="message">Votre message</label>
+            <label htmlFor="message">Votre message</label>
             <textarea id="message" name="message" rows="10" required></textarea>
 
             <motion.button type="submit" className="flex content-center gap-2 w-fit mx-auto self-center" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>Envoyer <MdOutlineEmail /></motion.button>
