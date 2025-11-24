@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import Header from "../../components/Header/header"
+import Biography from "../../components/Biography/biography";
 import Skills from "../../components/Skills/skills";
-import Introduction from "../../components/Introduction/introduction";
-import Navbar_About from "../../components/Navbar_About/navbar_about";
+import Experiences from "../../components/Experiences/experiences";
+import Diplomas from "../../components/Diplomas/diplomas";
 
 function About() {  
 
@@ -12,8 +13,11 @@ function About() {
 
   return (    
     <>
-      <Header />            
+      <Header /> 
+      <Biography/>         
       <Skills/>
+      <Experiences/> 
+      <Diplomas/>
     </>
   )
 }
