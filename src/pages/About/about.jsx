@@ -12,9 +12,7 @@ function About() {
 
   return (    
     <>
-      <Header />
-      <Navbar_About />
-      <Introduction/>         
+      <Header />            
       <Skills/>
     </>
   )
