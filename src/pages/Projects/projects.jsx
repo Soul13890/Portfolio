@@ -28,12 +28,13 @@ function Projects() {
             desc={project.desc}
             icons={project.icons}
             categories={project.categories}
+            github={project.github}
           />
           <Projects_Infos project={project} />
         </section>
       ) : (
         // Affichage de la liste des projets
-        <Projects_Intro/>        
+        <Projects_Intro/>       
       )}
     </>
   );

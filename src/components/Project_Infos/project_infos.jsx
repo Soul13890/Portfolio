@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom"
-import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io";
+import { IoIosArrowRoundBack } from "react-icons/io";
 import { motion, AnimatePresence } from "framer-motion";
 import { scale } from "motion";
 
 function Project_Infos({ project }) {
-  const currentRoute = window.location.pathname;
+  
   const MotionLink = motion(Link);
   return (
     <section className="project-infos-content flex flex-col content-center gap-8">

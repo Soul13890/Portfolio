@@ -21,7 +21,7 @@ function Projects_Intro() {
                         desc={desc}
                         icons={icons}
                         categories={categories}
-                        github={github}					
+                        github={github}
                     />
                 </li>
               ))}
