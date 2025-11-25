@@ -3,7 +3,7 @@ import Header from "../../components/Header/header"
 import Biography from "../../components/Biography/biography";
 import Skills from "../../components/Skills/skills";
 import Experiences from "../../components/Experiences/experiences";
-import Diplomas from "../../components/Diplomas/diplomas";
+import Studies from "../../components/Studies/studies";
 
 function About() {  
 
@@ -14,10 +14,10 @@ function About() {
   return (    
     <>
       <Header /> 
-      <Biography/>         
-      <Skills/>
-      <Experiences/> 
-      <Diplomas/>
+      <Biography/>
+      <Studies/>
+      <Experiences/>             
+      <Skills/>   
     </>
   )
 }

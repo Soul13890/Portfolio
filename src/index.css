@@ -271,7 +271,7 @@ footer {
 .skill-item .skill-item-level-container .skill-item {
   background-color: rgb(86, 86, 255);
   color: rgb(255, 255, 255);
-  padding: 10px 20px;
+  padding: 8px 20px;
   text-align: right;
   font-size: 20px;
   border-radius: 25px;
@@ -551,11 +551,82 @@ footer {
 }
 
 .diplomas-container {
-  margin: 0px auto;
-  padding: 50px 75px;
+  background-color: rgb(44, 44, 44);
+  border-radius: 25px;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+}
+.diplomas-container img {
+  width: 128px;
+  height: 128px;
+  border-radius: 25px;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.diplomas-container .diplomas-infos {
+  padding-left: 20px;
+}
+.diplomas-container .diplomas-infos h3 {
+  font-weight: bold;
+  font-size: 26px;
+}
+.diplomas-container .diplomas-infos ul {
+  flex-wrap: wrap;
+}
+.diplomas-container .skills-acquired {
+  flex-wrap: wrap;
+}
+.diplomas-container .skills-acquired p {
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+  padding: 5px 15px;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .experience-container {
   margin: 0px auto;
   padding: 50px 75px;
+}
+
+.studies-container {
+  margin: 0px auto;
+  padding: 50px 75px;
+  background-color: rgba(20, 20, 20, 0.8);
+  color: rgb(255, 255, 255);
+}
+.studies-container h2 {
+  font-size: 36px;
+}
+@media (max-width: 767px) {
+  .studies-container h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .studies-container h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+.studies-container .studies-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+@media (max-width: 1240px) {
+  .studies-container .studies-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+.studies-container .studies-list .studies-item {
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=index.css.map */

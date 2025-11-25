@@ -1,0 +1,69 @@
+[
+	{
+		"id": "0",
+        "cover": "/covers/openclassrooms.webp",
+		"name": "Développeur Web",
+		"establishment": "OpenClassroom",
+		"location": "À distance",
+		"year": "2025",
+        "level": "Niveau 5 (Bac +2)",
+        "description": "J'ai obtenu ma certification de développeur web avec OpenClassroom en 2025, obtenant un diplôme de Niveau 5. Au cours de cette formation, j'ai développé des compétences en HTML, CSS, Javascript, React et Git. J'ai également pu travailler sur des éléments périphériques à un projet comme les bases de données, les API et le SEO. Cela m'a permet d'acquérir des compétences variées en tant que développeur web.",
+        "skills": [
+            "HTML",
+            "CSS",
+            "Sass",
+            "Javascript",
+            "React",
+            "MongoDB",
+            "API",
+            "SEO"            
+        ]
+	},
+    {
+		"id": "1",
+        "cover": "/covers/creajeux.svg",
+		"name": "Développeur Jeux vidéo",
+		"establishment": "Créajeux",
+		"location": "Nîmes",
+		"year": "2022",
+        "level": "Niveau 6 (Bac +3)",
+        "description": "J'ai obtenu mon dîplome de développeur jeux vidéo avec Créajeux Nîmes en 2022. Au cours de cette formation, j'ai développé des compétences avec les langages C, C++ et C#. Pendant cette formation, j'ai travaillé en équipe sur plusieurs jeux avec ces différents langages sur divers moteurs de jeu comme Unity et Unreal Engine.",
+        "skills": [
+            "C",
+            "C++",
+            "C#"           
+        ]
+	},
+    {
+		"id": "2",
+        "cover": "/covers/iut-salon.webp",
+		"name": "Licence pro. Systèmes Automatisés et Réseaux Industriels",
+		"establishment": "IUT Salon-de-Pce",
+		"location": "Salon de Provence",
+		"year": "2015",
+        "level": "Niveau 6 (Bac +3)",
+        "description": "J'ai obtenu ma licence pro SARI à l'IUT Salon-de-Pce en 2015. Au cours de cette formation, j'ai développé des compétences avec SQL, la programmation domotique, en réseaux.",
+        "skills": [
+            "SQL",
+            "Réseaux",
+            "Programmation",
+            "Grafcet"     
+        ]
+	},
+    {
+		"id": "3",
+        "cover": "/covers/cfa-arles.webp",
+		"name": "BTS Contrôle Industriel et Régulation Automatique",
+		"establishment": "CFA Arles",
+		"location": "Arles",
+		"year": "2014",
+        "level": "Niveau 5 (Bac +2)",
+        "description": "J'ai obtenu mon BTS CIRA au CFA d'Arles en 2014. Au cours de cette formation, j'ai développé des compétences en développement en grafcet, en régulation industrielle et en instrumentation. J'ai également fait cette formation en alternance, j'ai travaillé dans une entreprise dans laquelle je programmais des automates pour faire de la gestion de température (chaufferie, centrale de traitement d'aire, hammams, etc...)",
+        "skills": [
+            "Grafcet",
+            "Régulation",
+            "Instrumentation",
+            "Alternance"     
+        ]
+	}
+]
