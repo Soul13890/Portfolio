@@ -4,6 +4,19 @@
     background-color: $text-color;
     color: $primary-color;
 
+    .contact-form-intro{        
+        color: $primary-color;
+        padding: 20px 0;
+
+        h2{
+            font-size: 36px;
+        }
+
+        h3{
+            font-size: 24px;
+        }
+    }
+
     form{
         display: flex;
         flex-direction: column;
@@ -33,10 +46,6 @@
             background-color: $primary-color;
             color: $text-color;
         }
-    }
-
-    a{
-        margin-bottom: 40px;
     }
 
     button{

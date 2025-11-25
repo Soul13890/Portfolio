@@ -6,7 +6,7 @@ import { IoSchool } from "react-icons/io5";
 function Diplomas({id, name, cover, establishment, location, year, level, description, skills}){
 
     return(
-        <article className="diplomas-container flex flex-col justify-between gap-4 max-w-[1240px] w-full">
+        <article className="diplomas-container flex flex-col justify-between gap-4">
             <div className="flex">
                 <img src={cover} alt="Logo de l'établissement" />
                 <div className="diplomas-infos flex flex-col gap-2">

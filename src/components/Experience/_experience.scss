@@ -1,0 +1,38 @@
+.experience-container{
+    border: 1px solid $primary-color;
+    border-radius: 25px;
+    padding: 30px; 
+    width: 100%;
+    height: 100%;    
+
+    img{
+        width: 128px;
+        height: 128px;
+        border-radius: 25px;
+        object-fit: contain;
+    }
+
+    .experience-infos{
+        padding-left: 20px;
+
+        h3{
+            font-weight: bold;
+            font-size: 26px;
+        }
+
+        ul{
+            flex-wrap: wrap;
+        }
+    }
+
+    .skills-acquired{
+        flex-wrap: wrap;
+        p{
+            background-color: $secondary-color;            
+            color: $text-color;                
+            border-radius: 25px;
+            padding: 5px 15px;
+            width: fit-content; 
+        }
+    }
+}

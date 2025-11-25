@@ -10,6 +10,10 @@ function Contact_Form() {
   return (
     <section className="contact-form-container flex flex-col gap-4 max-w-[1240px] w-full" id="contact">
         <MotionLink to={`/`} className="flex content-center gap-2 w-fit" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}><IoIosArrowRoundBack />Retour</MotionLink>
+        <section className="contact-form-intro flex flex-col gap-4" id="contact">
+                <h2>Envie de travailler ensemble ?</h2>
+                <h3>N'hésitez pas à me contacter</h3>
+        </section>            
         <form action="https://formspree.io/f/mkgewzlg" method="POST">
             <label htmlFor="email">Votre email</label>
             <input type="email" id="email" name="email" required />
