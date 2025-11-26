@@ -1,60 +1,60 @@
 [{    
     "id": "0",
-    "icon": "/icons/html.svg",
+    "icon": "icons/html.svg",
     "name": "HTML",
     "level": "99"
 },
 {    
     "id": "1",
-    "icon": "/icons/css.svg",
+    "icon": "icons/css.svg",
     "name": "CSS",
     "level": "99"
 },
 {    
     "id": "2",
-    "icon": "/icons/js.svg",
+    "icon": "icons/js.svg",
     "name": "Javascript",
     "level": "80"
 },
 {    
     "id": "3",
-    "icon": "/icons/php.svg",
+    "icon": "icons/php.svg",
     "name": "PHP",
     "level": "60"
 },
 {    
     "id": "4",
-    "icon": "/icons/react.svg",
+    "icon": "icons/react.svg",
     "name": "React",
     "level": "60"
 },
 {    
     "id": "5",
-    "icon": "/icons/sass.svg",
+    "icon": "icons/sass.svg",
     "name": "SASS",
     "level": "90"
 },
 {    
     "id": "6",
-    "icon": "/icons/bootstrap.svg",
+    "icon": "icons/bootstrap.svg",
     "name": "Bootstrap",
     "level": "50"
 },
 {    
     "id": "7",
-    "icon": "/icons/tailwind.svg",
+    "icon": "icons/tailwind.svg",
     "name": "Tailwind",
     "level": "50"
 },
 {    
     "id": "8",
-    "icon": "/icons/mysql.svg",
+    "icon": "icons/mysql.svg",
     "name": "MySQL",
     "level": "40"
 },
 {    
     "id": "9",
-    "icon": "/icons/mongodb.svg",
+    "icon": "icons/mongodb.svg",
     "name": "MongoDB",
     "level": "60"
 }]

@@ -1,7 +1,7 @@
 [
 	{
 		"id": "0",
-        "cover": "/covers/resurgences.webp",
+        "cover": "covers/resurgences.webp",
 		"name": "Développeur web",
 		"establishment": "Résurgences",
 		"location": "Arles",
@@ -18,7 +18,7 @@
 	},
     {
         "id": "1",
-        "cover": "/covers/wizama.webp",
+        "cover": "covers/wizama.webp",
 		"name": "Développeur jeux vidéo",
 		"establishment": "Wizama",
 		"location": "Chateaugiron",
@@ -34,7 +34,7 @@
     },
     {
         "id": "2",
-        "cover": "/covers/ineo.webp",
+        "cover": "covers/ineo.webp",
 		"name": "Métrologue",
 		"establishment": "Engie Ineo",
 		"location": "Aramon",
@@ -48,7 +48,7 @@
     },
     {
         "id": "3",
-        "cover": "/covers/dsc.webp",
+        "cover": "covers/dsc.webp",
 		"name": "Programmeur d'automates",
 		"establishment": "Division Service Climatisation",
 		"location": "Arles",

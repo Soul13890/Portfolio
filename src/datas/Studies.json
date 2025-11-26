@@ -1,7 +1,7 @@
 [
 	{
 		"id": "0",
-        "cover": "/covers/openclassrooms.webp",
+        "cover": "covers/openclassrooms.webp",
 		"name": "Développeur Web",
 		"establishment": "OpenClassroom",
 		"location": "À distance",
@@ -21,7 +21,7 @@
 	},
     {
 		"id": "1",
-        "cover": "/covers/creajeux.svg",
+        "cover": "covers/creajeux.svg",
 		"name": "Développeur Jeux vidéo",
 		"establishment": "Créajeux",
 		"location": "Nîmes",
@@ -36,7 +36,7 @@
 	},
     {
 		"id": "2",
-        "cover": "/covers/iut-salon.webp",
+        "cover": "covers/iut-salon.webp",
 		"name": "Licence pro. Systèmes Automatisés et Réseaux Industriels",
 		"establishment": "IUT Salon-de-Pce",
 		"location": "Salon de Provence",
@@ -52,7 +52,7 @@
 	},
     {
 		"id": "3",
-        "cover": "/covers/cfa-arles.webp",
+        "cover": "covers/cfa-arles.webp",
 		"name": "BTS Contrôle Industriel et Régulation Automatique",
 		"establishment": "CFA Arles",
 		"location": "Arles",
