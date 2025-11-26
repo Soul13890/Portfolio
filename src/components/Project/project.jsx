@@ -3,7 +3,6 @@ import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import { scale } from "motion";
-import { useLocation } from "react-router-dom";
 
 function Project({id, name, cover, desc, icons, categories, github}) { 
 
