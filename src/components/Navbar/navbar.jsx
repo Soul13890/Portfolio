@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { scale, stagger } from "motion";
 
 function Navbar() {
+
   const currentRoute = window.location.pathname;
   const isDesktop = useMediaQuery("(min-width: 767px)");
 
@@ -82,7 +83,7 @@ function Navbar() {
             </motion.li>
             <motion.li variants={itemVariants} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}
               className={currentRoute === "/projects" ? "active" : ""}>
-              <motion.a href="/projects">Mes projets</motion.a>
+              <Link to="/projects">Mes projets</Link>
             </motion.li>
             <motion.li variants={itemVariants} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}
               className={currentRoute === "/contact" ? "active" : ""}>
