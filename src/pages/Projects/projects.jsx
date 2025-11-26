@@ -20,7 +20,7 @@ function Projects() {
       <Header />      
       {id && project ? (
         // Affichage du détail d'un projet
-        <section className="project-infos-container">
+        <section className="project-infos-container max-w-[1240px] w-full">
           <Project
             id={project.id}
             name={project.name}

@@ -337,6 +337,9 @@ footer {
   height: 1.5em;
 }
 
+.project-item-container {
+  margin: 0px auto;
+}
 .project-item-container .project-item-infos h3 {
   font-weight: bold;
   font-size: 24px;

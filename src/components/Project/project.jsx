@@ -11,7 +11,7 @@ function Project({id, name, cover, desc, icons, categories, github}) {
 
     return (
     <>               
-        <div className="project-item-container flex justify-between content-center gap-8">
+        <div className="project-item-container flex justify-between content-center gap-8 max-w-[1240px] w-full">
             <div className="project-item-infos flex flex-col justify-center gap-8">
                 {location.pathname.includes("/projects/") && <MotionLink to={`/projects`} className="flex content-center gap-2 w-fit" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}><IoIosArrowRoundBack />Retour</MotionLink>}
                 <div>
@@ -38,7 +38,7 @@ function Project({id, name, cover, desc, icons, categories, github}) {
                 </div>
                 <div className="flex content-center gap-2">
                     {github != "" && <motion.a href={github} target="_blank" rel="noopener noreferrer" className="flex justify-center content-center gap-2" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}><FaGithub />GitHub</motion.a>}
-                    {(location.pathname === "/" || location.pathname === "/#/projects") && <MotionLink to={`/projects/${id}`} className="flex content-center gap-2" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>Plus d'infos<IoIosArrowRoundForward /></MotionLink>}
+                    {(location.pathname === "/" || location.pathname === "/projects") && <MotionLink to={`/projects/${id}`} className="flex content-center gap-2" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>Plus d'infos<IoIosArrowRoundForward /></MotionLink>}
                 </div>
                 
             </div>

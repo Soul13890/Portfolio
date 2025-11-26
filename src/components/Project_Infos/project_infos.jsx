@@ -7,7 +7,7 @@ function Project_Infos({ project }) {
   
   const MotionLink = motion(Link);
   return (
-    <section className="project-infos-content flex flex-col content-center gap-8">
+    <section className="project-infos-content flex flex-col content-center gap-8 max-w-[1240px] w-full">
       <article>
         <h4>Contexte</h4>
         <p>{project.content.context}</p>
