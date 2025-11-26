@@ -22,7 +22,7 @@ function Project({id, name, cover, desc, icons, categories, github}) {
                     <ul className='icons-list flex gap-2'>
                         {icons.map((url, index) => (              
                             <li className="icon" key={index}>
-                                <img src={url} alt={`Icone ${index + 1}`} />
+                                <img src={`${import.meta.env.BASE_URL}${url}`} alt={`Icone ${index + 1}`} />
                             </li>
                         ))}
                     </ul>
@@ -41,7 +41,7 @@ function Project({id, name, cover, desc, icons, categories, github}) {
                 </div>
                 
             </div>
-            <img className="project-cover" src={cover} alt="Image du projet" />          
+            <img className="project-cover" src={`${import.meta.env.BASE_URL}${cover}`} alt="Image du projet" />          
         </div>
     </>
   )
