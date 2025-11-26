@@ -23,18 +23,18 @@ function Biography(){
 
     return(
 
-        <section className="biography-container flex gap-[50px] max-w-[1240px] w-full">
-            <div className="biography-infos flex flex-col justify-center items-center gap-3">
-                <img src="picture.webp" alt="Photo de Badenes Florian"/>
-                <p>Badenes Florian</p>
-                <p>{age} ans</p>
-            </div>
-            <div className="flex flex-col gap-4">
-                <h2>À propos de moi</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui autem numquam eaque quod! Accusamus voluptatum, quibusdam at placeat praesentium delectus omnis? Error minus atque officia inventore distinctio omnis? Reprehenderit, quisquam.
-                Praesentium optio quaerat repellendus repudiandae asperiores fuga sequi velit beatae, aspernatur consectetur veniam, totam ratione vitae atque eum odit quam illum ipsa alias fugiat culpa porro ab nostrum iusto. Illo.
-                Veritatis laboriosam iusto totam, nulla, aspernatur praesentium autem esse vero labore ducimus pariatur perspiciatis mollitia maiores minus? Provident saepe ipsa doloribus magnam tenetur adipisci, delectus, doloremque veritatis voluptatem vero modi!</p>
-            </div>
+        <section className="biography-container flex flex-col gap-2.5 max-w-[1240px] w-full">
+            <h2>À propos de moi</h2>
+            <article className="flex items-center gap-[50px]">
+                <div className="flex flex-col gap-4">                
+                    <p>Passionné de développement depuis 10 ans, j'ai travaillé dans le développement d'automates industriels, de jeux vidéos et maintenant je travaille dans le web. Grâce à mon expérience dans ces différents domaines, j'ai pu développer de nombreuses compétences dans différents langages de programmation, ainsi que des méthodes de travail en développement.</p>
+                </div>
+                <div className="biography-infos flex flex-col justify-center items-center gap-3">
+                    <img src="picture.webp" alt="Photo de Badenes Florian"/>
+                    <p>Badenes Florian</p>
+                    <p>{age} ans</p>
+                </div>
+            </article>           
         </section>
     )
 }

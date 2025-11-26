@@ -537,9 +537,31 @@ footer {
   margin: 0px auto;
   padding: 50px 75px;
 }
-@media (max-width: 676px) {
+@media (max-width: 767px) {
   .biography-container {
-    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .biography-container article {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+}
+.biography-container h2 {
+  font-size: 36px;
+}
+@media (max-width: 767px) {
+  .biography-container h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .biography-container h2 {
+    font-size: 24px;
+    text-align: center;
   }
 }
 .biography-container .biography-infos {
@@ -552,10 +574,6 @@ footer {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.biography-container h2 {
-  font-weight: 500;
-  font-size: 24px;
-}
 
 .studies-container {
   margin: 0px auto;
@@ -566,6 +584,7 @@ footer {
 @media (max-width: 767px) {
   .studies-container {
     padding: 30px;
+    gap: 30px;
   }
 }
 .studies-container h2 {
@@ -647,6 +666,7 @@ footer {
 @media (max-width: 767px) {
   .experiences-container {
     padding: 30px;
+    gap: 30px;
   }
 }
 .experiences-container h2 {
