@@ -1,18 +1,20 @@
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import { scale } from "motion";
+import { useLocation } from "react-router-dom";
 
 function Project({id, name, cover, desc, icons, categories, github}) { 
 
     const MotionLink = motion(Link);
+    const location = useLocation();
 
     return (
     <>               
         <div className="project-item-container flex justify-between content-center gap-8">
             <div className="project-item-infos flex flex-col justify-center gap-8">
-                {location.pathname.includes("/projects/") && <MotionLink to={`/projects`} className="flex content-center gap-2 w-fit" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}><IoIosArrowRoundBack />Retour</MotionLink>}
+                {location.pathname.includes("/projects") && <MotionLink to={`/projects`} className="flex content-center gap-2 w-fit" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}><IoIosArrowRoundBack />Retour</MotionLink>}
                 <div>
                     <h3>{name}</h3>
                     <p>{desc}</p>
