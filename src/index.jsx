@@ -11,7 +11,7 @@ import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Router basename='/Portfolio/'>      
+    <Router>      
       <main aria-label="Contenu principal du site">
         <Routes>
           <Route path="/" element={<Home />} />
