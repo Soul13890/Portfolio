@@ -78,15 +78,15 @@ function Navbar() {
             className="flex gap-5"
           >
             <motion.li variants={itemVariants} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}
-              className={currentRoute === "/about" ? "active" : ""}>
+              className={currentRoute === "/Portfolio/about" ? "active" : ""}>
               <Link to="/about">À propos</Link>
             </motion.li>
             <motion.li variants={itemVariants} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}
-              className={currentRoute === "/projects" ? "active" : ""}>
+              className={currentRoute === "/Portfolio/projects" ? "active" : ""}>
               <Link to="/projects">Mes projets</Link>
             </motion.li>
             <motion.li variants={itemVariants} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}
-              className={currentRoute === "/contact" ? "active" : ""}>
+              className={currentRoute === "/Portfolio/contact" ? "active" : ""}>
               <Link to="/contact">Contact</Link>
             </motion.li>
           </motion.ul>
