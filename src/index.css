@@ -550,15 +550,46 @@ footer {
   background-color: rgb(255, 255, 255);
   color: rgba(20, 20, 20, 0.8);
 }
+@media (max-width: 767px) {
+  .contact-form-container {
+    padding: 32px;
+  }
+}
+@media (max-width: 475px) {
+  .contact-form-container {
+    padding: 32px;
+    text-align: center;
+  }
+}
 .contact-form-container .contact-form-intro {
   color: rgba(20, 20, 20, 0.8);
-  padding: 20px 0;
+  padding: 10px 0;
 }
 .contact-form-container .contact-form-intro h2 {
   font-size: 36px;
 }
+@media (max-width: 767px) {
+  .contact-form-container .contact-form-intro h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 480px) {
+  .contact-form-container .contact-form-intro h2 {
+    font-size: 28px;
+  }
+}
 .contact-form-container .contact-form-intro h3 {
   font-size: 24px;
+}
+@media (max-width: 767px) {
+  .contact-form-container .contact-form-intro h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .contact-form-container .contact-form-intro h3 {
+    font-size: 18px;
+  }
 }
 .contact-form-container form {
   display: flex;
