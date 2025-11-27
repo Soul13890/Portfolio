@@ -317,8 +317,8 @@ footer {
 }
 @media (max-width: 767px) {
   .skills-container {
-    padding: 30px;
-    gap: 30px;
+    padding: 32px;
+    gap: 32px;
   }
 }
 .skills-container h2 {
