@@ -122,6 +122,7 @@ footer {
 @media (max-width: 475px) {
   .intro-container {
     padding: 32px;
+    text-align: center;
   }
 }
 .intro-container h2 {
@@ -190,6 +191,7 @@ footer {
 @media (max-width: 475px) {
   .contact-container {
     padding: 32px;
+    text-align: center;
   }
 }
 .contact-container h2 {
@@ -222,6 +224,7 @@ footer {
 @media (max-width: 475px) {
   .contact-container a {
     font-size: 14px;
+    align-self: center;
   }
 }
 .contact-container svg {
@@ -238,6 +241,7 @@ footer {
 @media (max-width: 475px) {
   .skills-intro-container {
     padding: 32px;
+    text-align: center;
   }
 }
 .skills-intro-container h2 {
@@ -274,7 +278,12 @@ footer {
     gap: 30px;
   }
 }
-.skills-intro-container .skills-intro-list img {
+@media (max-width: 475px) {
+  .skills-intro-container .skills-intro-list li {
+    align-items: center;
+  }
+}
+.skills-intro-container .skills-intro-list li img {
   width: 64px;
   height: 64px;
 }
@@ -292,6 +301,7 @@ footer {
 @media (max-width: 475px) {
   .skills-intro-container a {
     font-size: 14px;
+    align-self: center;
   }
 }
 .skills-intro-container svg {
@@ -392,6 +402,7 @@ footer {
 @media (max-width: 475px) {
   .projects-intro-container {
     padding: 32px;
+    text-align: center;
   }
 }
 .projects-intro-container h2 {
@@ -435,6 +446,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    align-items: center;
   }
 }
 @media (max-width: 475px) {
@@ -464,21 +476,26 @@ footer {
   width: -moz-fit-content;
   width: fit-content;
 }
-.project-item-container .project-item-infos a {
+@media (max-width: 475px) {
+  .project-item-container .project-item-infos .btn-container {
+    align-self: center;
+  }
+}
+.project-item-container .project-item-infos .btn-container a {
   border: 1px solid rgba(20, 20, 20, 0.8);
   border-radius: 25px;
   padding: 10px 15px;
 }
-.project-item-container .project-item-infos a:hover {
+.project-item-container .project-item-infos .btn-container a:hover {
   background-color: rgba(20, 20, 20, 0.8);
   color: rgb(255, 255, 255);
 }
 @media (max-width: 475px) {
-  .project-item-container .project-item-infos a {
+  .project-item-container .project-item-infos .btn-container a {
     font-size: 14px;
   }
 }
-.project-item-container .project-item-infos svg {
+.project-item-container .project-item-infos .btn-container svg {
   width: 1.5em;
   height: 1.5em;
 }

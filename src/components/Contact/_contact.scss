@@ -6,6 +6,7 @@
 
     @media (max-width: 475px){
         padding: 32px;
+        text-align: center;
     }
 
     h2{
@@ -26,7 +27,7 @@
         border: 1px solid $text-color;
         border-radius: 25px;
         padding: 10px 15px;
-        width: fit-content;             
+        width: fit-content;                   
 
         &:hover{
             background-color: $text-color;
@@ -35,6 +36,7 @@
 
         @media (max-width: 475px){
             font-size: 14px;
+            align-self: center; 
         }
     }
 

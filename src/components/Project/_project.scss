@@ -16,7 +16,8 @@
             @media (max-width: 475px){
                 display: flex;
                 flex-direction: column;
-                gap: 16px;           
+                gap: 16px;                
+                align-items: center;                        
             }
 
             .project-description{
@@ -59,25 +60,34 @@
             }
         }
 
-        a{
-            border: 1px solid $primary-color;
-            border-radius: 25px;
-            padding: 10px 15px;                 
-
-            &:hover{
-                background-color: $primary-color;
-                color: $text-color;
-            }
+        .btn-container{
 
             @media (max-width: 475px){
-                font-size: 14px;
+                align-self: center;
+            }
+
+            a{
+                border: 1px solid $primary-color;
+                border-radius: 25px;
+                padding: 10px 15px;                         
+
+                &:hover{
+                    background-color: $primary-color;
+                    color: $text-color;
+                }
+
+                @media (max-width: 475px){
+                    font-size: 14px;
+                }
+            }
+
+            svg{
+                width: 1.5em;
+                height: 1.5em;             
             }
         }
 
-        svg{
-            width: 1.5em;
-            height: 1.5em;             
-        }
+        
     }
 
     .project-cover{
