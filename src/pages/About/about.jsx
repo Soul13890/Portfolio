@@ -15,9 +15,9 @@ function About() {
     <>
       <Header /> 
       <Biography/>
+      <Skills/>
       <Studies/>
-      <Experiences/>             
-      <Skills/>   
+      <Experiences/>        
     </>
   )
 }
