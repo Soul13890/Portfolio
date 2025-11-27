@@ -4,4 +4,10 @@ footer{
     padding: 20px;
     margin: 0 auto;
     border-top: 1px solid $text-color;
+
+    p{
+        @media (max-width: 475px){
+            font-size: 14px;            
+        }
+    }
 }

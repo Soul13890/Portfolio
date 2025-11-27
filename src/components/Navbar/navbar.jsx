@@ -11,8 +11,7 @@ function Navbar() {
   const currentHash = window.location.hash;
   const isDesktop = useMediaQuery("(min-width: 767px)");
 
-  const [hamburgerOpen, setHamburgerOpen] = useState(false);
-  const containerRef = useRef<HTMLDivElement>(null)
+  const [hamburgerOpen, setHamburgerOpen] = useState(false);  
   const [ref, bounds] = useMeasure();
 
   useEffect(() => {

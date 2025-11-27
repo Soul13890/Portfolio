@@ -108,17 +108,37 @@ footer {
   margin: 0 auto;
   border-top: 1px solid rgb(255, 255, 255);
 }
+@media (max-width: 475px) {
+  footer p {
+    font-size: 14px;
+  }
+}
 
 .intro-container {
   margin: 0px auto;
   padding: 50px 75px;
   color: rgba(20, 20, 20, 0.8);
 }
+@media (max-width: 475px) {
+  .intro-container {
+    padding: 32px;
+  }
+}
 .intro-container h2 {
   font-size: 42px;
 }
+@media (max-width: 475px) {
+  .intro-container h2 {
+    font-size: 28px;
+  }
+}
 .intro-container h3 {
   font-size: 24px;
+}
+@media (max-width: 475px) {
+  .intro-container h3 {
+    font-size: 18px;
+  }
 }
 .intro-container p {
   max-width: 575px;
@@ -126,6 +146,16 @@ footer {
 @media (max-width: 767px) {
   .intro-container p {
     max-width: 100%;
+  }
+}
+@media (max-width: 475px) {
+  .intro-container p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 475px) {
+  .intro-container a {
+    font-size: 14px;
   }
 }
 
@@ -157,11 +187,26 @@ footer {
   background-color: rgba(20, 20, 20, 0.8);
   color: rgb(255, 255, 255);
 }
+@media (max-width: 475px) {
+  .contact-container {
+    padding: 32px;
+  }
+}
 .contact-container h2 {
   font-size: 36px;
 }
+@media (max-width: 475px) {
+  .contact-container h2 {
+    font-size: 28px;
+  }
+}
 .contact-container h3 {
   font-size: 24px;
+}
+@media (max-width: 475px) {
+  .contact-container h3 {
+    font-size: 18px;
+  }
 }
 .contact-container a {
   border: 1px solid rgb(255, 255, 255);
@@ -174,6 +219,11 @@ footer {
   background-color: rgb(255, 255, 255);
   color: rgba(20, 20, 20, 0.8);
 }
+@media (max-width: 475px) {
+  .contact-container a {
+    font-size: 14px;
+  }
+}
 .contact-container svg {
   width: 1.5em;
   height: 1.5em;
@@ -185,12 +235,32 @@ footer {
   background-color: rgba(20, 20, 20, 0.8);
   color: rgb(255, 255, 255);
 }
+@media (max-width: 475px) {
+  .skills-intro-container {
+    padding: 32px;
+  }
+}
 .skills-intro-container h2 {
   font-size: 42px;
+}
+@media (max-width: 475px) {
+  .skills-intro-container h2 {
+    font-size: 28px;
+  }
 }
 .skills-intro-container h3 {
   font-weight: bold;
   font-size: 24px;
+}
+@media (max-width: 475px) {
+  .skills-intro-container h3 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 475px) {
+  .skills-intro-container p {
+    font-size: 16px;
+  }
 }
 .skills-intro-container .skills-intro-list {
   display: grid;
@@ -218,6 +288,11 @@ footer {
 .skills-intro-container a:hover {
   background-color: rgb(255, 255, 255);
   color: rgba(20, 20, 20, 0.8);
+}
+@media (max-width: 475px) {
+  .skills-intro-container a {
+    font-size: 14px;
+  }
 }
 .skills-intro-container svg {
   width: 1.5em;
@@ -314,12 +389,18 @@ footer {
   background-color: rgb(255, 255, 255);
   color: rgba(20, 20, 20, 0.8);
 }
+@media (max-width: 475px) {
+  .projects-intro-container {
+    padding: 32px;
+  }
+}
 .projects-intro-container h2 {
   font-size: 42px;
 }
-.projects-intro-container h3 {
-  font-weight: bold;
-  font-size: 24px;
+@media (max-width: 475px) {
+  .projects-intro-container h2 {
+    font-size: 28px;
+  }
 }
 .projects-intro-container a {
   border: 1px solid rgba(20, 20, 20, 0.8);
@@ -344,16 +425,38 @@ footer {
   font-weight: bold;
   font-size: 24px;
 }
-.project-item-container .project-item-infos .icons-list .icon {
+@media (max-width: 475px) {
+  .project-item-container .project-item-infos h3 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 475px) {
+  .project-item-container .project-item-infos .icons-categories-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+@media (max-width: 475px) {
+  .project-item-container .project-item-infos .icons-categories-lists .project-description {
+    font-size: 16px;
+  }
+}
+.project-item-container .project-item-infos .icons-categories-lists .icons-list .icon {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.project-item-container .project-item-infos .icons-list img {
+.project-item-container .project-item-infos .icons-categories-lists .icons-list img {
   width: 32px;
   height: 32px;
 }
-.project-item-container .project-item-infos .categories-list .categorie {
+@media (max-width: 475px) {
+  .project-item-container .project-item-infos .icons-categories-lists .separation {
+    display: none;
+  }
+}
+.project-item-container .project-item-infos .icons-categories-lists .categories-list .categorie {
   background-color: rgb(86, 86, 255);
   color: rgb(255, 255, 255);
   border-radius: 25px;
@@ -369,6 +472,11 @@ footer {
 .project-item-container .project-item-infos a:hover {
   background-color: rgba(20, 20, 20, 0.8);
   color: rgb(255, 255, 255);
+}
+@media (max-width: 475px) {
+  .project-item-container .project-item-infos a {
+    font-size: 14px;
+  }
 }
 .project-item-container .project-item-infos svg {
   width: 1.5em;

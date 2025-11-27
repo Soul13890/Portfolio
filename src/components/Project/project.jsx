@@ -12,14 +12,14 @@ function Project({id, name, cover, desc, icons, categories, github}) {
     return (
     <>               
         <div className="project-item-container flex justify-between content-center gap-8 max-w-[1240px] w-full">
-            <div className="project-item-infos flex flex-col justify-center gap-8">
+            <div className="project-item-infos flex flex-col justify-center gap-4">
                 {location.pathname.includes("/projects/") && <MotionLink to={`/projects`} className="flex content-center gap-2 w-fit" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}><IoIosArrowRoundBack />Retour</MotionLink>}
-                <div>
+                <div className="flex flex-col gap-2">
                     <h3>{name}</h3>
-                    <p>{desc}</p>
+                    <p className="project-description">{desc}</p>
                 </div>                
                 
-                <div className="flex content-center gap-4">
+                <div className="icons-categories-lists flex content-center gap-4">
                     <ul className='icons-list flex gap-2'>
                         {icons.map((url, index) => (              
                             <li className="icon" key={index}>
@@ -27,7 +27,7 @@ function Project({id, name, cover, desc, icons, categories, github}) {
                             </li>
                         ))}
                     </ul>
-                    <p className="text-3xl">|</p>
+                    <p className="separation text-3xl">|</p>
                     <ul className='categories-list flex gap-2'>
                         {categories.map((categorie, index) => (              
                             <li className="categorie" key={index}>

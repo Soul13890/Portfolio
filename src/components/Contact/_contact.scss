@@ -4,12 +4,22 @@
     background-color: $primary-color;
     color: $text-color;
 
+    @media (max-width: 475px){
+        padding: 32px;
+    }
+
     h2{
         font-size: 36px;
+        @media (max-width: 475px){
+            font-size: 28px;
+        }   
     }
 
     h3{
         font-size: 24px;
+        @media (max-width: 475px){
+            font-size: 18px;
+        }
     }
 
     a{
@@ -21,6 +31,10 @@
         &:hover{
             background-color: $text-color;
             color: $primary-color;
+        }
+
+        @media (max-width: 475px){
+            font-size: 14px;
         }
     }
 
