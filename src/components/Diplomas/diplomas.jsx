@@ -7,7 +7,7 @@ function Diplomas({id, name, cover, establishment, location, year, level, descri
 
     return(
         <article className="diplomas-container flex flex-col justify-between gap-4">
-            <div className="flex">
+            <div className="diplomas-header flex">
                 <img src={cover} alt="Logo de l'établissement" />
                 <div className="diplomas-infos flex flex-col gap-2">
                     <h3>{name}</h3>
