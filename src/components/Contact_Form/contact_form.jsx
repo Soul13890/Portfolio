@@ -2,10 +2,16 @@ import { Link } from "react-router-dom"
 import { motion } from "framer-motion";
 import { IoIosArrowRoundBack } from "react-icons/io";
 import { MdOutlineEmail } from "react-icons/md";
+import { useEffect } from "react";
 
 function Contact_Form() {
     
-    const MotionLink = motion(Link);
+  const MotionLink = motion(Link);
+
+  useEffect(() => {
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
+  }, []);
 
   return (
     <section className="contact-form-container flex flex-col gap-4 max-w-[1240px] w-full" id="contact">
