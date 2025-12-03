@@ -1,6 +1,7 @@
 .biography-container{
     margin: 0px auto;
     padding: 50px 75px;
+    color: $primary-color;
 
     @media (max-width: 767px) {
         padding: 32px;
@@ -17,7 +18,7 @@
 
     h2{
         font-size: 36px;
-        color: $primary-color;
+        
         @media (max-width: 767px) {
             font-size: 28px;
             text-align: center;          

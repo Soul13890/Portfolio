@@ -707,6 +707,7 @@ footer {
 .biography-container {
   margin: 0px auto;
   padding: 50px 75px;
+  color: rgba(20, 20, 20, 0.8);
 }
 @media (max-width: 767px) {
   .biography-container {
@@ -723,7 +724,6 @@ footer {
 }
 .biography-container h2 {
   font-size: 36px;
-  color: rgba(20, 20, 20, 0.8);
 }
 @media (max-width: 767px) {
   .biography-container h2 {
