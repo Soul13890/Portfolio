@@ -723,6 +723,7 @@ footer {
 }
 .biography-container h2 {
   font-size: 36px;
+  color: rgba(20, 20, 20, 0.8);
 }
 @media (max-width: 767px) {
   .biography-container h2 {
