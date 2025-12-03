@@ -2,16 +2,20 @@ import { Link } from "react-router-dom"
 import { motion } from "framer-motion";
 import { IoIosArrowRoundBack } from "react-icons/io";
 import { MdOutlineEmail } from "react-icons/md";
-import { useEffect } from "react";
+import { useRef } from "react";
 
 function Contact_Form() {
     
+  const formRef = useRef(null);
   const MotionLink = motion(Link);
 
-  useEffect(() => {
-    document.getElementById("email").value = "";
-    document.getElementById("message").value = "";
-  }, []);
+  const handleSubmit = (e) => {    
+    setTimeout(() => {      
+      if (formRef.current) {
+        formRef.current.reset();
+      }
+    }, 100);
+  };
 
   return (
     <section className="contact-form-container flex flex-col gap-4 max-w-[1240px] w-full" id="contact">
@@ -20,7 +24,7 @@ function Contact_Form() {
                 <h2>Envie de travailler ensemble ?</h2>
                 <h3>N'hésitez pas à me contacter</h3>
         </section>            
-        <form action="https://formspree.io/f/mkgewzlg" method="POST">
+        <form action="https://formspree.io/f/mkgewzlg" method="POST" ref={formRef} onSubmit={handleSubmit}>
             <label htmlFor="email">Votre email</label>
             <input type="email" id="email" name="email" required />
 
