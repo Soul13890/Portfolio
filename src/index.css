@@ -511,11 +511,23 @@ footer {
   }
 }
 
+@media (max-width: 820px) {
+  .return-btn {
+    margin-bottom: 30px;
+  }
+}
+
 .project-infos-container {
   margin: 0px auto;
   padding: 50px 75px;
   background-color: rgb(255, 255, 255);
   color: rgba(20, 20, 20, 0.8);
+}
+@media (max-width: 475px) {
+  .project-infos-container {
+    text-align: center;
+    padding: 32px;
+  }
 }
 .project-infos-container .project-infos-content {
   margin: 50px auto;

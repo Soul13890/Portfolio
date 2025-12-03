@@ -5,6 +5,11 @@
     background-color: $text-color;
     color: $text-gray-color;
 
+    @media (max-width: 475px){
+        text-align: center;
+        padding: 32px;            
+    }  
+
     .project-infos-content{
         margin: 50px auto;
 

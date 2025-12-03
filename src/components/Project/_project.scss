@@ -1,5 +1,5 @@
 .project-item-container{
-    margin: 0px auto;   
+    margin: 0px auto;
 
     .project-item-infos{
 
@@ -7,7 +7,7 @@
             font-weight: bold;
             font-size: 24px;
             @media (max-width: 475px){
-                font-size: 18px;
+                font-size: 18px;                
             }
         }
 
@@ -22,7 +22,7 @@
 
             .project-description{
                 @media (max-width: 475px){
-                    font-size: 16px;            
+                    font-size: 16px;                              
                 }
             }
 
@@ -101,5 +101,12 @@
         {
             display: none;
         }
+    }
+}
+
+.return-btn{
+    @media (max-width: 820px)
+    {
+        margin-bottom: 30px;
     }
 }

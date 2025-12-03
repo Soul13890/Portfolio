@@ -10,10 +10,10 @@ function Project({id, name, cover, desc, icons, categories, github}) {
     const location = useLocation();
 
     return (
-    <>               
+    <>              
+    {location.pathname.includes("/projects/") && <MotionLink to={`/projects`} className="return-btn flex content-center gap-2 w-fit" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}><IoIosArrowRoundBack />Retour</MotionLink>} 
         <div className="project-item-container flex justify-between content-center gap-8 max-w-[1240px] w-full">
             <div className="project-item-infos flex flex-col justify-center gap-4">
-                {location.pathname.includes("/projects/") && <MotionLink to={`/projects`} className="flex content-center gap-2 w-fit" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}><IoIosArrowRoundBack />Retour</MotionLink>}
                 <div className="flex flex-col gap-2">
                     <h3>{name}</h3>
                     <p className="project-description">{desc}</p>
