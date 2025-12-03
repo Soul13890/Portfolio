@@ -851,8 +851,8 @@ footer {
   }
 }
 .diplomas-container .skills-acquired p {
-  border: 1px solid rgb(255, 255, 255);
   color: rgb(255, 255, 255);
+  background-color: rgb(86, 86, 255);
   border-radius: 25px;
   padding: 5px 15px;
   width: -moz-fit-content;

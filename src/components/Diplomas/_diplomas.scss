@@ -50,15 +50,15 @@
     }
 
     .skills-acquired{
-        flex-wrap: wrap;        
+        flex-wrap: wrap;             
                     
         @media (max-width: 475px){
             justify-content: center;      
         }
 
-        p{
-            border: 1px solid $text-color;
-            color: $text-color;                
+        p{            
+            color: $text-color;
+            background-color: $secondary-color;              
             border-radius: 25px;
             padding: 5px 15px;
             width: fit-content;            
