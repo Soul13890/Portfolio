@@ -29,7 +29,7 @@ function Contact_Form() {
             <input type="email" id="email" name="email" required />
 
             <label htmlFor="message">Votre message</label>
-            <textarea id="message" name="message" rows="6" required></textarea>
+            <textarea id="message" name="message" rows="8" required></textarea>
 
             <motion.button type="submit" className="flex content-center gap-2 w-fit mx-auto self-center" whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>Envoyer <MdOutlineEmail /></motion.button>
         </form>
