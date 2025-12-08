@@ -47,6 +47,99 @@
         }
 	},
     {
+		"id": "agence-voyage",
+		"name": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
+		"cover": "covers/agence-voyage.webp",		
+		"desc": "Développement d'un site internet qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+		"github": "https://github.com/Soul13890/OC_Projet_1",
+        "categories": [
+			"Front-end"
+        ],
+        "icons": [
+            "icons/html.svg",
+            "icons/css.svg"
+        ],
+        "content": {
+            "context": "Dans le cadre d’une formation, j’ai créé la page d’accueil d’une agence de voyage à partir d’une maquette Figma, avec l’enjeu de proposer une interface fidèle au design et agréable à utiliser.",
+            "objectives": "L’objectif principal était de reproduire la structure et le style du prototype tout en assurant une navigation fluide et un affichage cohérent sur tous les écrans.",
+            "tools": "Le développement a été réalisé en HTML et CSS, en mobilisant notamment Flexbox, Grid et des media queries pour la mise en page responsive.",
+            "skills": "Ce projet m’a permis d’améliorer ma maîtrise de l’intégration web, d’affiner ma gestion du responsive design et de renforcer ma capacité à adapter une maquette en interface fonctionnelle.",
+            "results": "Le livrable final respecte la maquette, ne présente aucun débordement visuel et offre une expérience utilisateur stable sur différents formats d’écran.",
+            "ameliorations": "Des optimisations pourraient être apportées en ajoutant des animations légères ou en améliorant encore la modularité du code CSS."
+        }
+	},
+    {
+		"id": "opti-photo",
+		"name": "Débuggez et optimisez un site de photographe",
+		"cover": "covers/opti-photo.webp",		
+		"desc": "Optimiser le référencement d’un site, en améliorant sa performance et son accessibilité.",
+		"github": "https://github.com/Soul13890/OC_Projet_3",
+        "categories": [		
+            "Optimisation",
+            "SEO"
+        ],
+        "icons": [
+            "icons/html.svg",
+            "icons/css.svg",
+            "icons/js.svg"
+        ],
+        "content": {
+            "context": "Dans le cadre d’une formation, j'ai réalisé une démarche d’amélioration d’un site de photographe dont les performances, l’accessibilité et le référencement étaient insuffisants.",
+            "objectives": "L’objectif principal était d’identifier les bugs existants, d’optimiser la vitesse de chargement et de rendre le site conforme aux bonnes pratiques d’accessibilité et de SEO.",
+            "tools": "Les interventions ont été réalisées en HTML, CSS et JavaScript, avec le soutien d’outils d’audit comme W3C Validator, Lighthouse, Wave et Google Rich Results.",
+            "skills": "Ce projet m’a permis de renforcer mes compétences en débogage, en analyse de performances et en optimisation technique orientée utilisateur et moteur de recherche.",
+            "results": "Les corrections ont amélioré la stabilité du site, augmenté ses scores Lighthouse et assuré une meilleure lisibilité pour les outils de référencement.",
+            "ameliorations": "Les prochaines étapes pourraient inclure une refonte partielle du code pour encore plus de modularité et l’ajout de tests automatisés pour prévenir les régressions."
+        }
+	},
+    {
+		"id": "backend-livre",
+		"name": "Développez le back-end d'un site de notation de livres",
+		"cover": "covers/backend-livre.webp",		
+		"desc": "Développement de la partie serveur d’une application permettant aux utilisateurs de consulter, noter et ajouter des livres.",
+		"github": "https://github.com/Soul13890/OC_Projet_5",
+        "categories": [		
+            "Back-end"            
+        ],
+        "icons": [
+            "icons/express.svg",
+            "icons/nodejs.svg",
+            "icons/mongodb.svg"
+        ],
+        "content": {
+            "context": "Dans le cadre d’une formation, j'ai bâti l’infrastructure back-end d’un site de notation de livres, un domaine encore nouveau pour moi, ce qui représentait un véritable enjeu d’apprentissage.",
+            "objectives": "L’objectif était de concevoir une API fiable permettant la gestion sécurisée des utilisateurs, des livres et des notations, tout en garantissant une architecture claire et évolutive.",
+            "tools": "Le développement a été réalisé avec Node.js, Express et MongoDB, technologies utilisées pour créer les routes, gérer la base de données et structurer la logique métier.",
+            "skills": "Ce projet m’a permis de m’adapter rapidement à Express, de comprendre les bases de la conception d’API REST et de renforcer ma maîtrise des opérations CRUD.",
+            "results": "L’API développée est fonctionnelle, sécurisée et conforme aux besoins du projet, permettant un échange fluide de données entre le front-end et le serveur.",
+            "ameliorations": "Une amélioration intéressante consisterait à ajouter un système de gestion des permissions (rôles utilisateurs) pour mieux contrôler l’accès à certaines fonctionnalités."
+        }
+	},
+    {
+		"id": "planif-projet",
+		"name": "Planifiez le développement du site de votre client",
+		"cover": "covers/planif-projet.webp",		
+		"desc": "Planifier le développement complet d’un site web, en définissant les étapes de production et l’organisation du travail.",
+		"github": "",
+        "categories": [		
+            "Planification",
+            "Kanban"            
+        ],
+        "icons": [
+            "icons/trello.svg",
+            "icons/word.svg",
+            "icons/feedly.svg"
+        ],
+        "content": {
+            "context": "Dans le cadre d’une formation, j’ai été chargé de planifier le développement complet d’un site web, en définissant les étapes de production et l’organisation du travail. L’enjeu principal était d’assurer une vision structurée du projet pour garantir une réalisation fluide et cohérente.",
+            "objectives": "L’objectif était de formaliser les besoins du client, d’anticiper les tâches techniques et d’optimiser la gestion du temps grâce à une organisation claire. Il s’agissait également de prévenir les risques et d’assurer un cadre de production reproductible pour de futurs projets.",
+            "tools": "J’ai utilisé un tableau Kanban sur Trello pour organiser les tâches, un document de spécifications techniques détaillé, ainsi qu’un système de veille basé sur des outils comme Feedly, GitHub Trends ou des newsletters spécialisées.",
+            "skills": "Ce projet m’a permis de renforcer ma capacité d’analyse, de structuration et de priorisation des besoins techniques. J’ai également développé une méthodologie de veille efficace pour suivre les évolutions du secteur.",
+            "results": "Le projet a abouti à une documentation claire comprenant un Kanban opérationnel et des spécifications techniques complètes, offrant au client une vision transparente du déroulement du développement. Cette préparation a permis d’améliorer la coordination et de réduire les zones d’incertitude en amont.",
+            "ameliorations": "Les prochaines étapes consistent à automatiser certains process (modèles de tickets, checklists) et à enrichir la veille avec des outils de monitoring plus avancés pour anticiper encore mieux les choix techniques."
+        }
+	},
+    {
 		"id": "verrerie",
 		"name": "Créez une page web reliée à une station météo",
 		"cover": "covers/verrerie.webp",		
