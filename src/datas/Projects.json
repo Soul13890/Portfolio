@@ -1,6 +1,7 @@
 [
 	{
 		"id": "page-dynamique-js",
+        "highlighted" : true,
 		"name": "Créez une page web dynamique avec Javascript",
 		"cover": "covers/page-dynamique.webp",		
 		"desc": "Rendre une page web existante dynamique afin d'améliorer l'expérience utilisateur",
@@ -25,6 +26,7 @@
 	},
     {
 		"id": "react-app-location",
+        "highlighted" : true,
 		"name": "Créez une application web de location immobilière avec React",
 		"cover": "covers/react-kasa.webp",		
 		"desc": "Concevoir une interface moderne et dynamique avec React",
@@ -48,6 +50,7 @@
 	},
     {
 		"id": "agence-voyage",
+        "highlighted" : false,
 		"name": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
 		"cover": "covers/agence-voyage.webp",		
 		"desc": "Développement d'un site internet qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
@@ -70,6 +73,7 @@
 	},
     {
 		"id": "opti-photo",
+        "highlighted" : false,
 		"name": "Débuggez et optimisez un site de photographe",
 		"cover": "covers/opti-photo.webp",		
 		"desc": "Optimiser le référencement d’un site, en améliorant sa performance et son accessibilité.",
@@ -94,6 +98,7 @@
 	},
     {
 		"id": "backend-livre",
+        "highlighted" : false,
 		"name": "Développez le back-end d'un site de notation de livres",
 		"cover": "covers/backend-livre.webp",		
 		"desc": "Développement de la partie serveur d’une application permettant aux utilisateurs de consulter, noter et ajouter des livres.",
@@ -117,6 +122,7 @@
 	},
     {
 		"id": "planif-projet",
+        "highlighted" : false,
 		"name": "Planifiez le développement du site de votre client",
 		"cover": "covers/planif-projet.webp",		
 		"desc": "Planifier le développement complet d’un site web, en définissant les étapes de production et l’organisation du travail.",
@@ -141,6 +147,7 @@
 	},
     {
 		"id": "verrerie",
+        "highlighted" : true,
 		"name": "Créez une page web reliée à une station météo",
 		"cover": "covers/verrerie.webp",		
 		"desc": "Afficher les informations d'une station météo Raspberry Pi",
