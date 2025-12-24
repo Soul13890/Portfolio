@@ -4,7 +4,7 @@ import { LuScrollText } from "react-icons/lu";
 
 function Experience({ id, name, cover, establishment, location, year, type, description, skills}) {
     return (
-        <article className="experience-container flex flex-col gap-4">
+        <article className="experience-container flex flex-col gap-4 justify-between">
             <div className="experience-header flex">
                 <img src={cover} alt="Logo de l'établissement" />
                 <div className="experience-infos flex flex-col gap-2">

@@ -27,7 +27,7 @@ function Biography(){
             <h2>À propos de moi</h2>
             <article className="flex items-center gap-[50px]">
                 <div className="flex flex-col gap-4">                
-                    <p>Passionné de développement depuis 10 ans, j'ai travaillé dans le développement d'automates industriels, de jeux vidéos et maintenant je travaille dans le web. Grâce à mon expérience dans ces différents domaines, j'ai pu développer de nombreuses compétences dans différents langages de programmation, ainsi que des méthodes de travail en développement.</p>
+                    <p>Passionné de développement depuis 10 ans, j'ai commencé par la programmation d'automates industriels, puis de jeux vidéos et maintenant le web. Grâce à mon expérience dans ces différents domaines, je maîtrise plusieurs langages de programmation, ainsi que les méthodes de travail adaptées.</p>
                 </div>
                 <div className="biography-infos flex flex-col justify-center items-center gap-3">
                     <img src="picture.webp" alt="Photo de Badenes Florian"/>
