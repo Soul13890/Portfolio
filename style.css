@@ -1,0 +1,74 @@
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #e3f2fd, #ffffff);
+      margin: 0;
+      padding: 40px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: #1565c0;
+    }
+
+    .search-bar {
+      margin: 20px 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .search-bar input {
+      width: 100%;
+      max-width: 500px;
+      padding: 12px 15px;
+      border-radius: 25px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      outline: none;
+      transition: 0.3s;
+    }
+
+    .search-bar input:focus {
+      border-color: #1565c0;
+      box-shadow: 0 0 8px rgba(21, 101, 192, 0.2);
+    }
+
+    .list {
+      margin-top: 20px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      transition: 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+    }
+
+    .code {
+      font-weight: bold;
+      color: #1565c0;
+    }
+
+    .loading {
+      text-align: center;
+      margin-top: 30px;
+      color: #777;
+    }
+
+    .no-result {
+      text-align: center;
+      margin-top: 20px;
+      color: #999;
+    }
