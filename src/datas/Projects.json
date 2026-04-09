@@ -168,5 +168,29 @@
             "results": "Le livrable final est une interface claire, stable et exploitable, validée lors de tests internes pour sa lisibilité et sa compatibilité multi-supports. L’ensemble respecte les attentes du client tout en restant facilement extensible.",
             "ameliorations": "Nous sommes actuellement en attente des directives du client pour intégrer une gestion des événements du lieu-dit, avec système de connexion utilisateur et formulaire dédié à l’ajout d’événements."
         }
+	},
+    {
+		"id": "bracket",
+        "highlighted" : true,
+		"name": "Créez une application avec React Native",
+		"cover": "covers/bracket.webp",		
+		"desc": "Créer une application de gestion de tournois avec React Native",
+		"github": "https://github.com/Soul13890/Bracket",
+        "categories": [
+			"Front-end",
+            "Mobile"
+        ],
+        "icons": [
+            "icons/react.svg",
+            "icons/expo.svg"            
+        ],
+        "content": {
+            "context": "Dans le cadre d’un projet personnel, j’ai conçu et développé une application mobile dédiée à la gestion de tournois. L’objectif principal était de découvrir et maîtriser le développement mobile avec React Native et Expo, tout en construisant une application fonctionnelle et cohérente.",
+            "objectives": "Le projet consistait à concevoir une application mobile intuitive permettant de créer, organiser et suivre des tournois. J’ai également cherché à mettre en place une architecture claire et maintenable, tout en expérimentant les bonnes pratiques du développement mobile cross-platform.",
+            "tools": "React Native avec Expo pour le développement mobile, JavaScript/TypeScript pour la logique applicative, ainsi que différentes bibliothèques de navigation et de gestion d’état adaptées à l’écosystème mobile.",
+            "skills": "Ce projet m’a permis de développer mes compétences en développement mobile, notamment en conception d’interfaces adaptées aux smartphones, en gestion de navigation et en structuration d’application React Native. J’ai également renforcé ma capacité à apprendre rapidement un nouvel environnement technique.",
+            "results": "Le résultat est une application mobile fonctionnelle permettant la gestion de tournois, avec une interface claire et une expérience utilisateur fluide. Le projet démontre ma capacité à concevoir une application complète, du prototype à une version exploitable.",
+            "ameliorations": "Des améliorations sont envisagées, notamment l’ajout d’un système d’authentification utilisateur, la synchronisation des données via une API backend, ainsi que l’intégration de fonctionnalités avancées comme les notifications ou la gestion en temps réel des matchs."
+        }
 	}
 ]
